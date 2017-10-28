@@ -1,0 +1,19 @@
+$color-text:				#000000;
+$color-divider:				#eeeeee;
+$color-success:				#cce5ff;
+$color-success-border:		#b8daff;
+
+$title: 						'MaisonNeue-Bold';
+$text:						'Sailec-Medium';
+
+.title{
+	font-family: $title;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.text{
+	font-family: $text;
+	font-weight: normal;
+	font-style: normal;
+}
