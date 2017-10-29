@@ -1,21 +1,113 @@
-html{
+* {
+	-webkit-box-sizing: inherit;
+	box-sizing: inherit;
+}
 
+*:before, *:after {
+	-webkit-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+html{
+	margin: 0;
+	background-color: $color-body;
+	font-size: $size-text;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	min-width: 300px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	text-rendering: optimizeLegibility;
+	-webkit-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	text-size-adjust: 100%;
 }
 
 body{
+	margin: 0;
 	color: $color-text;
+	font-weight: normal;
+	font-size: $size-text;
+	line-height: 1.5;
 	background-color: #ffffff;
 }
 
+
 h1,h2,h3,h4,h5,h6{
 	@extend .title;
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
-a, p, span, label{
+h1{
+
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+h4{
+
+}
+
+h5{
+
+}
+
+h6{
+
+}
+
+a, p, span, label, small, em{
 	@extend .text;
 }
 
+a{
+	color: $color-text;
+	&:hover{
+
+	}
+}
+
+code {
+	background-color: whitesmoke;
+	color: #ff3860;
+	font-size: 0.875em;
+	font-weight: normal;
+	padding: 0.25em 0.5em 0.25em;
+}
+
+pre {
+	-webkit-overflow-scrolling: touch;
+	background-color: whitesmoke;
+	color: #4a4a4a;
+	font-size: $size-text;
+	overflow-x: auto;
+	padding: 1.25rem 1.5rem;
+	white-space: pre;
+	word-wrap: normal;
+	code{
+		background-color: transparent;
+		color: currentColor;
+		font-size: 1em;
+		padding: 0;
+	}
+}
+
 ul{
+	li{
+		@extend .text;
+	}
+}
+
+ol{
 	li{
 		@extend .text;
 	}

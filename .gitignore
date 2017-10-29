@@ -16,6 +16,7 @@ Icon
 /site/*
 /assets/*
 !/assets/scss
+!/assets/css
 !/assets/main.css
 !/assets/main.min.css
 
