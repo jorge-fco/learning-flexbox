@@ -1,14 +1,47 @@
+/* =COLORS
+-----------------------------------------------------------------------------*/
 $color-text:				#000000;
 $color-link:					#000000;
 
 $color-body:				#ffffff;
+$color-selection:			#fff000;
+$color-placeholder:		#cccccc;
 
-$color-divider:				#eeeeee;
+$color-accent:				#000000;
+$color-divider:				#aeaeae;
 $color-success:				#cce5ff;
 $color-success-border:		#b8daff;
 
+/* =SIZES
+-----------------------------------------------------------------------------*/
 $size-text:					16px;
 
+$size-h1-xs:				46px;
+$size-h1-md:				48px;
+$size-h1-lg:					50px;
+
+$size-h2-xs:				34px;
+$size-h2-md:				36px;
+$size-h2-lg:					38px;
+
+$size-h3-xs:				22px;
+$size-h3-md:				24px;
+$size-h3-lg:					26px;
+
+$size-h4-xs:				20px;
+$size-h4-md:				22px;
+$size-h4-lg:					24px;
+
+$size-h5-xs:				16px;
+$size-h5-md:				18px;
+$size-h5-lg:					20px;
+
+$size-h6-xs:				14px;
+$size-h6-md:				16px;
+$size-h6-lg:					18px;
+
+/* =FONTS
+-----------------------------------------------------------------------------*/
 $title: 						'MaisonNeue-Bold';
 $text:						'Sailec-Medium';
 
@@ -24,3 +57,32 @@ $text:						'Sailec-Medium';
 	font-style: normal;
 }
 
+/* =SELECTED
+-----------------------------------------------------------------------------*/
+::-moz-selection {
+    color: $color-text;
+    background: $color-selection;
+}
+
+::selection {
+    color: $color-text;
+    background: $color-selection;
+}
+
+/* =PLACEHOLDER
+-----------------------------------------------------------------------------*/
+::-webkit-input-placeholder {
+	color: $color-placeholder;
+}
+
+::-moz-placeholder {
+	color: $color-placeholder;
+}
+
+:-ms-input-placeholder {
+	color: $color-placeholder;
+}
+
+:-moz-placeholder {
+	color: $color-placeholder;
+}

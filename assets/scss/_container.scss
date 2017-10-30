@@ -1,7 +1,14 @@
 .header{
 	width: 100%;
 	position: relative;
-	background-color: red;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid $color-divider;
+	h1{
+		margin: 0;
+		font-size: 56px;
+		position: relative;
+	}
 }
 
 .main{

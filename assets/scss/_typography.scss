@@ -42,27 +42,27 @@ h1,h2,h3,h4,h5,h6{
 }
 
 h1{
-
+	font-size: $size-h1-md;
 }
 
 h2{
-
+	font-size: $size-h2-md;
 }
 
 h3{
-
+	font-size: $size-h3-md;
 }
 
 h4{
-
+	font-size: $size-h4-md;
 }
 
 h5{
-
+	font-size: $size-h5-md;
 }
 
 h6{
-
+	font-size: $size-h6-md;
 }
 
 a, p, span, label, small, em{
@@ -79,7 +79,7 @@ a{
 code {
 	background-color: whitesmoke;
 	color: #ff3860;
-	font-size: 0.875em;
+	font-size: $size-text;
 	font-weight: normal;
 	padding: 0.25em 0.5em 0.25em;
 }
@@ -87,7 +87,7 @@ code {
 pre {
 	-webkit-overflow-scrolling: touch;
 	background-color: whitesmoke;
-	color: #4a4a4a;
+	color: $color-text;
 	font-size: $size-text;
 	overflow-x: auto;
 	padding: 1.25rem 1.5rem;
@@ -96,7 +96,7 @@ pre {
 	code{
 		background-color: transparent;
 		color: currentColor;
-		font-size: 1em;
+		font-size: $size-text;
 		padding: 0;
 	}
 }
