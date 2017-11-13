@@ -1,3 +1,8 @@
+@charset "UTF-8";
+/*!
+	Year — 2017
+	Jorge Fco. | Front-End Dev.
+*/
 /*!
 	normalize.css v7.0.0
 	| MIT License |
@@ -452,11 +457,33 @@ pre {
     .flex__list__align li + li {
       margin-left: 2%; }
 
-.flex__list--basic {
+.flex__list__basic {
   padding: 2%; }
-  .flex__list--basic li {
+  .flex__list__basic li {
     width: 180px;
     height: 180px; }
+
+.flex__list__items {
+  width: 100%;
+  height: 80vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 1px solid #aeaeae; }
+  .flex__list__items li {
+    width: 170px;
+    height: 80px;
+    background-color: #ffffff;
+    border: 1px solid #b8daff;
+    margin-bottom: 2%;
+    margin-left: 2%; }
 
 .justify-content-center {
   -webkit-box-pack: center;
@@ -516,6 +543,36 @@ pre {
   -webkit-align-items: baseline;
   -ms-flex-align: baseline;
   align-items: baseline; }
+
+.align-content-stretch {
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch; }
+
+.align-content-flex-start {
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start; }
+
+.align-content-flex-end {
+  -webkit-align-content: flex-end;
+  -ms-flex-line-pack: end;
+  align-content: flex-end; }
+
+.align-content-center {
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center; }
+
+.align-content-space-between {
+  -webkit-align-content: space-between;
+  -ms-flex-line-pack: justify;
+  align-content: space-between; }
+
+.align-content-space-around {
+  -webkit-align-content: space-around;
+  -ms-flex-line-pack: distribute;
+  align-content: space-around; }
 
 .flex-wrap-wrap {
   -webkit-flex-wrap: wrap;
